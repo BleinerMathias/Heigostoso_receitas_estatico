@@ -10,11 +10,11 @@ Essas páginas serão utilizadas para criar uma aplicação posterior utilizando
 # Páginas
 
     - [] HomePage
-        - [] Banner
-        - [] Receita destaque
-        - [] 4 últimas receitas cadastradas
-        - [] Enviar sua receita
-        - [] Categorias
+        - [x] Banner
+        - [x] Receita destaque
+        - [x] 4 últimas receitas cadastradas
+        - [x] Enviar sua receita
+        - [x] Categorias
         - [] Footer
     
 

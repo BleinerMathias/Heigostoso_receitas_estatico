@@ -1,0 +1,125 @@
+nav img {
+    margin: 0 auto;
+    width: 19rem;
+}
+
+.ico-2 {
+    font-size: 2rem;
+}
+
+.bg-uva {
+    background-image: radial-gradient(circle at 50% -20.71%, #ff7e6b 0, #ff6e73 12.5%, #ff5d78 25%, #ff4c7a 37.5%, #f23c78 50%, #d52e74 62.5%, #ba2471 75%, #a21d6e 87.5%, #8d1a6c 100%);
+}
+
+#section-2 {
+    display: flex;
+}
+
+#comp-receita {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-sections {
+    font-family: 'Viaoda Libre', cursive, sans-serif;
+    background: #fff;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* CARD RECEITAS */
+
+.card-body .info {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 130px;
+}
+
+.card-body .category {
+    display: inline-block;
+    position: relative;
+    color: #b8b8b8;
+    text-align: center;
+    z-index: 1;
+}
+
+.card-body .title {
+    display: -webkit-box;
+    max-width: 90%;
+    max-height: 35px;
+    margin: 10px auto;
+    color: #595959;
+    font-size: 16px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-body .user {
+    max-height: 18px;
+    color: #595959;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-body .favorites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #b8b8b8;
+    font-size: 13px;
+}
+
+.card-body .hover-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: .2s;
+    border-radius: 5px;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.card-body .numbers {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.receitas .card:hover {
+    transition: ease-in;
+    z-index: 0;
+}
+
+.receitas .card:hover {
+    transform: scale(1.1);
+    z-index: 4;
+}
+
+.btn-orange {
+    background-color: #ff6a28;
+    color: #fff;
+}
+
+.mt-50 {
+    margin-top: 20rem;
+}
