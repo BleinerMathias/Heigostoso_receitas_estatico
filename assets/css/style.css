@@ -123,3 +123,40 @@ nav img {
 .mt-50 {
     margin-top: 20rem;
 }
+
+/* MODAL EXLCUIR receita */
+.img-chapeu{
+    width: 90px;
+}
+
+.modal-header{
+    border-bottom: transparent !important;
+    
+}
+
+.modal-footer{
+    border-top: transparent !important;
+}
+
+#hr-modal{
+    margin-block: auto;
+    width: 80%;   
+    border: 1px solid #720E6C;
+}
+
+.text-tit-modal{
+    padding: 30px 130px;
+    position: absolute;
+    font-size: 22px;
+}
+
+.text-modal{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* BOTÕES - FECHAR, CONCLUIR */
+
+.btn-dark{   
+    width: 70px;
+}
