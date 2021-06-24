@@ -30,6 +30,12 @@ nav img {
     text-align: center;
 }
 
+.title-section-gradient {
+    font-family: 'Viaoda Libre', cursive, sans-serif;
+    padding: 6px;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 65%, rgba(255,255,255,0) 100%);
+}
+
 /* CARD RECEITAS */
 
 .card-body .info {
@@ -482,6 +488,5 @@ hr {
     height: 50px;
     line-height: 50px;
     padding: 0;
-}
 }
 
